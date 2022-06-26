@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, bisque, burlywood);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ 
+}
+
+
+h1 {
+  margin: 15px;
+  font-size: 4rem;
+  color: orange;
+  text-shadow: 2px 2px 5px purple;
+}
+
+h2 {
+  /* font-size: 2rem; */
+  color: purple;
+  text-shadow: 2px 2px 5px orange;
+}
+
+label {
+  font-size: 4rem;
+  color: blueviolet;
+  text-shadow: 2px 2px 5px orange;
+}
+
+
+p {
+  margin: 15px;
+  font-size: 2rem;
+  color: purple;
+  text-shadow: 2px 2px 5px orange;
+}
+
+img{
+  width: 180px;
+}
+
+button { 
+ 
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  text-shadow: 2px 2px 5px white;
+  background-color: purple;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px orange;
+
+}
+
+.button:hover {
+  background-color: orange;
+  box-shadow: 5px 5px purple;
+}
+
+.button:active {
+  background-color: orangered;
+  box-shadow: 5px 5px #666;
+  transform: translateY(4px);
+}
+
